@@ -142,17 +142,77 @@ h1 {
 
 /* Body */
 main {
+  align-items: center;
   background-color: #FAF9F7;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  background-color: #DFDFDF;
+  border: none;
+  height: 0.4vh;
+  width: 60vw;  
 }
 
 main p {
-  color: black;
+  color: #616161;
 }
 
-main img {
-  width: 250px;
+main span {
+  color: #5E20A4;
+  text-decoration: underline;
 }
 
 h2 {
-  color: black;
+  color: #3D3D3D;
+  font-size: 1.7em;
+  font-weight: 400;
+}
+
+.horizontal-section {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  padding: 10vh 13vw;
+}
+
+.horizontal-section-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.horizontal-section-text-wrapper p {
+  line-height: 1.5em;
+}
+
+.nanny-share-image {
+  width: 71vh;
+}
+
+.shared-payments-image {
+  width: 69vh;
+}
+
+.vertical-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  padding: 10vh 0;
+  text-align: center;
+}
+
+.vertical-section p {
+  line-height: 1.5em;
+  margin: 0 22vw;
+}
+
+.billing-history-image {
+  width: 74vw;
+}
+
+.daily-diary-image {
+  width: 15vw;
 }
