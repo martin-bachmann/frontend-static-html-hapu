@@ -1,0 +1,124 @@
+* {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 13vh;
+  height: 83vh;
+}
+
+.banner-background-image {
+  background: #b516ff;
+  background: linear-gradient(150deg, #4c20c5 0%, #7929ce 80%, #e185ff 100%);
+  filter: blur(0.5px);
+  height: 83vh;
+  object-fit: cover;
+  object-position: 50% 0%;
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+}
+
+.banner-hapu-logo {
+  object-fit: cover;
+  object-position: 50% 0%;
+  width: 3.5vw;
+}
+
+.banner-navs-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 7vh;
+  justify-content: space-between;
+}
+
+header nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2.3vw;
+  margin: 0 3vh;
+}
+
+header nav p {
+  font-size: 0.85em;
+  margin-top: 2vh;
+}
+
+header button {
+  background-color: #64CA8E;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85em;
+  padding: 1.5vh;
+}
+
+.banner-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 25vh;
+  margin: 4vh 20vh;
+}
+
+.banner-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  width: 40vw;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: 100;
+  margin-top: 4vh;
+}
+
+.banner-content-text p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.link-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.85em;
+  gap: 1vw;
+  text-decoration: underline;
+}
+
+.banner-modal-image {
+  width: 22vw;
+}
+
+.header-complement-wrapper {
+  border-bottom: #DFDFDF solid 0.3vh;
+  border-top: #DFDFDF solid 0.3vh;
+}
+
+/* Body */
+main {
+  background-color: #FAF9F7;
+}
+
+main p {
+  color: black;
+}
+
+main img {
+  width: 250px;
+}
+
+h2 {
+  color: black;
+}
