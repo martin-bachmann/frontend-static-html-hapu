@@ -1,10 +1,12 @@
 * {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
   margin: 0;
   padding: 0;
 }
 
+/* header */
 header {
   display: flex;
   flex-direction: column;
@@ -19,7 +21,7 @@ header {
 
 .banner-background-image {
   background: #b516ff;
-  background: linear-gradient(150deg, #4c20c5 0%, #7929ce 80%, #e185ff 100%);
+  background: linear-gradient(150deg, #4c20c5 0%, #9229ce 50%, #b329ce 100%);
   filter: blur(0.5px);
   height: 83vh;
   object-fit: cover;
@@ -29,6 +31,7 @@ header {
   z-index: -1;
 }
 
+/* header navs */
 .banner-hapu-logo {
   object-fit: cover;
   object-position: 50% 0%;
@@ -51,7 +54,7 @@ header nav {
 }
 
 header nav p {
-  font-size: 0.85em;
+  font-size: 0.8em;
   margin-top: 2vh;
 }
 
@@ -59,10 +62,12 @@ header button {
   background-color: #64CA8E;
   border: none;
   border-radius: 4px;
-  font-size: 0.85em;
+  font-size: 0.8em;
+  margin-top: 2vh;
   padding: 1.5vh;
 }
 
+/* header main content */
 .banner-content-wrapper {
   display: flex;
   flex-direction: row;
@@ -74,7 +79,7 @@ header button {
   display: flex;
   flex-direction: column;
   gap: 3vh;
-  width: 40vw;
+  width: 38vw;
 }
 
 h1 {
@@ -84,8 +89,12 @@ h1 {
 }
 
 .banner-content-text p {
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.5em;
+}
+
+.banner-play-icon {
+  width: 4vw;
 }
 
 .link-wrapper {
@@ -101,9 +110,34 @@ h1 {
   width: 22vw;
 }
 
+/* header complement */
 .header-complement-wrapper {
+  align-items: center;
   border-bottom: #DFDFDF solid 0.3vh;
   border-top: #DFDFDF solid 0.3vh;
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+  justify-content: center;
+  gap: 2.5vw;
+}
+
+.header-complement-wrapper p {
+  color: black;
+  font-weight: 500;
+}
+
+.header-complement-wrapper span {
+  color: #5E20A4;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.header-complement-picture {
+  border: rgb(255, 255, 255) 0.8vh solid;
+  border-radius: 50%;
+  box-shadow: 0 4px 3px 0.5px rgba(160, 160, 160, 0.699);
+  width: 5vw;
 }
 
 /* Body */
