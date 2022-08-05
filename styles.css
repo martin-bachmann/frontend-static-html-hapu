@@ -27,7 +27,7 @@ header {
   object-fit: cover;
   object-position: 50% 0%;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   z-index: -1;
 }
 
@@ -160,7 +160,7 @@ main p {
   color: #4A4A4A;
 }
 
-main span {
+span {
   color: #5E20A4;
   text-decoration: underline;
 }
@@ -255,6 +255,86 @@ form button {
 form input {
   border: #DFDFDF solid 1px;
   border-radius: 7px;
+  color: #4A4A4A;
   font-size: 0.9em;
   padding: 1vh 2vw;
+}
+
+/* footer */
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  padding-top: 10vh;
+  width: 100%;
+}
+
+footer p {
+  color: #4A4A4A;
+}
+
+footer button {
+  background-color: #6347A4;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+  padding: 1vw 2vw;
+}
+
+footer button p {
+  color: white;
+  font-size: 0.8em;
+  font-weight: 100;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.footer-small-text {
+  font-size: 0.6em;
+}
+
+.footer-calendar-icon {
+  width: 2vw;
+}
+
+footer nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7vh;
+  width: 85%;
+}
+
+.footer-nav-text {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+
+.footer-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5vw;
+}
+
+.footer-icons-wrapper img {
+  border: #DFDFDF solid 1px;
+  border-radius: 50%;
+  padding: 0.7vw;
+  width: 1.5vw;
+}
+
+.footer-copyright-text {
+  color: #8A8A8A;
+  font-size: 0.8em;
+  padding: 7vh 0;
+}
+
+.footer-hapu-logo {
+  width: 6vw;
+  padding-right: 7.7vw;
 }
