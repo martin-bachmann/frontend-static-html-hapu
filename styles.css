@@ -140,7 +140,7 @@ h1 {
   width: 5vw;
 }
 
-/* Body */
+/* Main content */
 main {
   align-items: center;
   background-color: #FAF9F7;
@@ -155,8 +155,9 @@ hr {
   width: 60vw;  
 }
 
+/* Main sections */
 main p {
-  color: #616161;
+  color: #4A4A4A;
 }
 
 main span {
@@ -215,4 +216,45 @@ h2 {
 
 .daily-diary-image {
   width: 15vw;
+}
+
+/* Form */
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  padding: 10vh 13vw;
+}
+
+.form-inputs-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  margin-top: 6vh;
+}
+
+h3 {
+  color: #3D3D3D;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+form p {
+  font-size: 1.2em;
+}
+
+form button {
+  background-color: #64CA8E;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.9em;
+  padding: 1.7vh 2vw;
+}
+
+form input {
+  border: #DFDFDF solid 1px;
+  border-radius: 7px;
+  font-size: 0.9em;
+  padding: 1vh 2vw;
 }
